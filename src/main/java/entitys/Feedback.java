@@ -2,11 +2,17 @@ package entitys;
 
 import lombok.Data;
 
-import java.time.LocalDate;
+import java.sql.Date;
+
 
 @Data
 public class Feedback {
+    public Feedback(){
+
+    }
+
     private int id;
     private String description;
-    private LocalDate feedbackDate;
+    private Date feedbackDate;
+
 }
